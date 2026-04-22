@@ -31,42 +31,10 @@ import {
 } from 'lucide-react';
 
 const FudashiLogo = ({ className = "w-full h-full" }) => (
-  <svg className={className} viewBox="0 0 375 375" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="49.92" y="229.68" width="102.57" height="14.51" fill="#4fd5ca"/>
-    <rect x="49.92" y="64.55" width="243.87" height="14.51" fill="#e4ff00"/>
-    <rect x="49.92" y="88.25" width="243.87" height="14.51" fill="#ddb15b"/>
-    <rect x="49.92" y="182.86" width="221.43" height="14.51" fill="#fc267e"/>
-    <rect x="49.92" y="206.57" width="221.43" height="14.51" fill="#e62c8a"/>
-    <rect x="49.92" y="300.41" width="102.57" height="14.51" fill="#13bcc9"/>
-    <rect x="49.92" y="325.63" width="102.57" height="14.51" fill="#1db7c3"/>
-    <rect x="49.92" y="253.94" width="102.57" height="14.51" fill="#38d4cf"/>
-    <rect x="49.92" y="275.82" width="102.57" height="14.51" fill="#14c3cb"/>
-    <rect x="49.92" y="111.05" width="102.57" height="14.51" fill="#fba03e"/>
-    <rect x="49.92" y="134.76" width="102.57" height="14.51" fill="#fe913e"/>
-    <rect x="49.92" y="158.46" width="219.93" height="14.51" fill="#f2327f"/>
-    <path d="M72.36 36.43H181.08V340.08H72.36V36.43Z" fill="white"/>
-    <path d="M70.71 181.7H183.13V351.02H70.71V181.7Z" fill="black"/>
-    <path d="M115.09 154.82H299.24V228.25H115.09V154.82Z" fill="white"/>
-    <path d="M72.36 152.4H300.87V231.3H72.36V152.4Z" fill="black"/>
-    <rect x="49.92" y="40.91" width="243.87" height="14.51" fill="#e4ff00"/>
-    <path d="M155.32 36.42H323.27V108.61H155.32V36.42Z" fill="white"/>
-    <path d="M70.71 103.92H183.18V191.04H70.71V103.92Z" fill="black"/>
-    <path d="M72.36 275.19H174.95V289.89H72.36V275.19Z" fill="black"/>
-    <path d="M72.36 158.22H221.79V173.89H72.36V158.22Z" fill="black"/>
-    <rect x="72.41" y="229.68" width="102.57" height="14.51" fill="white"/>
-    <path d="M70.71 31H325.77V109.07H70.71V31Z" fill="black"/>
-    <rect x="72.36" y="64.55" width="243.87" height="14.51" fill="white"/>
-    <rect x="72.36" y="88.25" width="243.87" height="14.51" fill="white"/>
-    <rect x="72.41" y="182.86" width="221.43" height="14.51" fill="white"/>
-    <rect x="72.36" y="206.57" width="221.43" height="14.51" fill="white"/>
-    <rect x="72.41" y="300.41" width="102.57" height="14.51" fill="white"/>
-    <rect x="72.36" y="325.63" width="102.57" height="14.51" fill="white"/>
-    <rect x="72.41" y="253.94" width="102.57" height="14.51" fill="white"/>
-    <rect x="72.41" y="275.82" width="102.57" height="14.51" fill="white"/>
-    <rect x="72.36" y="111.05" width="102.57" height="14.51" fill="white"/>
-    <rect x="72.36" y="134.76" width="102.57" height="14.51" fill="white"/>
-    <rect x="72.41" y="158.46" width="221.43" height="14.51" fill="white"/>
-    <rect x="72.41" y="40.91" width="243.87" height="14.51" fill="white"/>
+  <svg className={className} viewBox="0 0 237 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="237" height="67" rx="33" fill="#e2ff00"/>
+    <rect x="0" y="77" width="184" height="67" rx="33" fill="#ff751f"/>
+    <rect x="0" y="154" width="107" height="67" rx="33" fill="#ff3131"/>
   </svg>
 );
 
