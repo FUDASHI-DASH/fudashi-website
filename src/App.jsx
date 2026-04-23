@@ -258,7 +258,7 @@ const App = () => {
 <h1 className="text-4xl md:text-9xl font-black tracking-tighter text-white uppercase leading-none sr-only">FUDASHI</h1>
             <p className="text-xl md:text-3xl font-light tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-[#e2ff00] via-[#ff751f] to-[#ff3131] pb-2">Customer Service Strategy & AI Transformation Consulting</p>          </div>
 
-          <div className="flex justify-center pt-4 md:pt-10">
+          <div className="flex justify-center items-center pt-4 md:pt-10">
             <button 
               onClick={() => setActiveTab('expertise')}
               className="group px-8 py-4 md:px-12 md:py-6 bg-white text-black rounded-sm font-black uppercase tracking-[0.2em] flex items-center gap-4 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-white/5"
