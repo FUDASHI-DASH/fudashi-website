@@ -83,7 +83,7 @@ const EXPERTISE_BLOCKS = [
 
 const CAREER_HIGHLIGHTS = [
   {
-    role: "Manager, AI Automation & Digital Transformation",
+    role: "Head of Customer Operations & AI Transformation",
     company: "Rose City Electric",
     url: "https://rosecityelectricco.com",
     location: "Portland, OR",
@@ -95,7 +95,7 @@ const CAREER_HIGHLIGHTS = [
     ]
   },
   {
-    role: "Senior Vendor Manager, Global Customer Support",
+    role: "Senior Vendor Manager, Customer Support & CX Operations",
     company: "GoPro",
     url: "https://GoPro.com",
     location: "San Mateo, CA",
@@ -109,7 +109,7 @@ const CAREER_HIGHLIGHTS = [
     ]
   },
   {
-    role: "Account Executive, Vendor Risk",
+    role: "Account Executive, Vendor Risk Management",
     company: "UpGuard",
     url: "https://upguard.com",
     location: "Mountain View, CA",
@@ -120,7 +120,7 @@ const CAREER_HIGHLIGHTS = [
     ]
   },
   {
-    role: "Senior Manager, Customer Support",
+    role: "Senior Manager, Customer Support M&A Operations",
     company: "ToutApp",
     fullHyperlinkText: "Visit ToutApp (Acquired by Marketo/Adobe)",
     url: "https://toutapp.com",
@@ -132,7 +132,7 @@ const CAREER_HIGHLIGHTS = [
     ]
   },
   {
-    role: "Global Technical Support & Research Manager",
+    role: "Manager, Global Technical Support & Escalations",
     company: "Netflix",
     url: "https://netflix.com",
     location: "Los Gatos, CA",
@@ -255,9 +255,8 @@ const App = () => {
         
         <div className="space-y-6 md:space-y-8 max-w-5xl mx-auto">
           <div className="space-y-2">
-            <h1 className="text-4xl md:text-9xl font-black tracking-tighter text-white uppercase leading-none">FUDASHI</h1>
-            <p className="text-xl md:text-3xl font-light tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-[#4fd5ca] via-[#fc267e] to-[#e4ff00] pb-2">Customer Service Strategy & AI Transformation Consulting</p>
-          </div>
+<h1 className="text-4xl md:text-9xl font-black tracking-tighter text-white uppercase leading-none sr-only">FUDASHI</h1>
+            <p className="text-xl md:text-3xl font-light tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-[#e2ff00] via-[#ff751f] to-[#ff3131] pb-2">Customer Service Strategy & AI Transformation Consulting</p>          </div>
 
           <div className="flex justify-center pt-4 md:pt-10">
             <button 
