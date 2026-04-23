@@ -248,7 +248,7 @@ const App = () => {
     <div className="min-h-screen bg-[#050505] flex flex-col items-center justify-center relative px-6 overflow-hidden pb-20 md:pb-0">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-[#4fd5ca]/10 via-[#fc267e]/5 to-[#e4ff00]/10 rounded-full blur-[120px] pointer-events-none opacity-50"></div>
       
-      <div className="relative z-10 text-center animate-in fade-in zoom-in duration-1000">
+      <div className="relative z-10 text-center animate-in fade-in zoom-in duration-1000 flex flex-col items-center">
         <div className="w-40 h-40 md:w-80 md:h-80 mx-auto mb-6 md:mb-12 drop-shadow-[0_0_20px_rgba(255,255,255,0.15)] drop-shadow-[0_0_40px_rgba(79,213,202,0.1)]">
           <FudashiLogo />
         </div>
