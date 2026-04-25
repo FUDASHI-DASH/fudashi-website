@@ -31,10 +31,10 @@ import {
 } from 'lucide-react';
 
 const FudashiLogo = ({ className = "w-full h-full" }) => (
-  <svg className={className} viewBox="0 0 375 375" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="38" y="74" width="299" height="60" rx="30" fill="#CCFF00"/>
-    <rect x="38" y="158" width="224" height="60" rx="30" fill="#FF6B1A"/>
-    <rect x="38" y="242" width="149" height="60" rx="30" fill="#FF2040"/>
+  <svg className={className} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="13" y="16" width="74" height="21" rx="10.5" fill="#CCFF00"/>
+    <rect x="13" y="40" width="57" height="21" rx="10.5" fill="#FF6B1A"/>
+    <rect x="13" y="64" width="33" height="21" rx="10.5" fill="#FF2040"/>
   </svg>
 );
 
@@ -249,7 +249,7 @@ const App = () => {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-[#CCFF00]/10 via-[#FF6B1A]/5 to-[#FF2040]/10 rounded-full blur-[120px] pointer-events-none opacity-50"></div>
 
       <div className="relative z-10 text-center animate-in fade-in zoom-in duration-1000">
-        <div className="w-40 h-40 md:w-80 md:h-80 mx-auto mb-6 md:mb-12 drop-shadow-[0_0_20px_rgba(255,255,255,0.15)] drop-shadow-[0_0_40px_rgba(204,255,0,0.1)]">
+        <div className="w-[clamp(220px,38vw,460px)] h-[clamp(220px,38vw,460px)] mx-auto mb-8 md:mb-16" style={{filter:'drop-shadow(0 0 20px rgba(255,255,255,0.15)) drop-shadow(0 0 40px rgba(204,255,0,0.1))' }}>
           <FudashiLogo />
         </div>
 
@@ -431,7 +431,7 @@ const App = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#CCFF00] text-black font-black uppercase tracking-widest text-xs rounded-sm hover:bg-[#CCFF00]/90 active:scale-95 transition-all mb-6"
               >
-                Live App <ArrowRight size={14} />
+                Live Demo <ArrowRight size={14} />
               </a>
 
               <div className="border border-[#CCFF00]/30 rounded-sm overflow-hidden">
